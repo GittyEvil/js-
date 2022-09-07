@@ -38,22 +38,36 @@ console.log(info)
 console.log('tack för att du delar med dig!')
 */
 
+// uppgift 35
 
+/*
+let frågor;
+do {
+    frågor =prompt('ge mig ett nummer:');
 
+}while(frågor != 42)
+
+    if(frågor == 42);
+        console.log(frågor)
+
+*/
 
  // uppgift 40
 
 let fråga;
 do {
     fråga = prompt('ge mig ett nummer:');
-    numemr = []
+    nummer = []
+    nummer=nummer + fråga
+
 
 }while (fråga != 0)
+        
     
     if (fråga == (0));
-        console.log('totalen blev: ' + fråga)
+        console.log('totalen blev: ' + nummer)
 
-   
+
 
 
 
